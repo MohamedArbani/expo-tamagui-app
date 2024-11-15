@@ -1,4 +1,4 @@
-import { Anchor, Paragraph, View, XStack } from 'tamagui'
+import { Anchor, Paragraph, View, XStack } from 'tamagui';
 
 export default function ModalScreen() {
   return (
@@ -8,15 +8,10 @@ export default function ModalScreen() {
         <Anchor col="$blue10" href="https://twitter.com/natebirdman" target="_blank">
           @natebirdman,
         </Anchor>
-        <Anchor
-          color="$purple10"
-          href="https://github.com/tamagui/tamagui"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <Anchor color="$purple10" href="https://github.com/tamagui/tamagui" target="_blank" rel="noreferrer">
           give it a ⭐️
         </Anchor>
       </XStack>
     </View>
-  )
+  );
 }

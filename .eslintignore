@@ -1,0 +1,7 @@
+/.expo
+node_modules
+/.yarn
+/.vscode
+/.next
+/android
+/ios

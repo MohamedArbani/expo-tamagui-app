@@ -1,6 +1,6 @@
-import { ExternalLink } from '@tamagui/lucide-icons'
-import { Anchor, H2, Paragraph, XStack, YStack } from 'tamagui'
-import { ToastControl } from '@/app/CurrentToast'
+import { ToastControl } from '@/app/CurrentToast';
+import { ExternalLink } from '@tamagui/lucide-icons';
+import { Anchor, H2, Paragraph, XStack, YStack } from 'tamagui';
 
 export default function TabOneScreen() {
   return (
@@ -28,12 +28,7 @@ export default function TabOneScreen() {
           hoverStyle={{ bg: '$purple6' }}
           pressStyle={{ bg: '$purple4' }}
         >
-          <Anchor
-            href="https://tamagui.dev/docs/core/configuration"
-            textDecorationLine="none"
-            col="$purple10"
-            fos="$5"
-          >
+          <Anchor href="https://tamagui.dev/docs/core/configuration" textDecorationLine="none" col="$purple10" fos="$5">
             Configuration guide
           </Anchor>
           <ExternalLink size="$1" col="$purple10" />
@@ -44,5 +39,5 @@ export default function TabOneScreen() {
         </Paragraph>
       </XStack>
     </YStack>
-  )
+  );
 }
