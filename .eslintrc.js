@@ -5,5 +5,6 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     '@typescript-eslint/no-empty-object-type': 'off',
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
   },
 };
